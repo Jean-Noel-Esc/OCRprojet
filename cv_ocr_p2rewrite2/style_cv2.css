@@ -1,0 +1,26 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+
+
+
+
+.cvtitle {text-decoration:underline orange;}
+
+
+
+.fa-graduation-cap {color: orange;}
+.fa-briefcase {color: orange;}
+.fa-pen {color: orange;}
+
+
+.ul {color: orange;}
+
+h1 {color: orange;}
+
