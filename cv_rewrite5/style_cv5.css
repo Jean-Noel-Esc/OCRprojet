@@ -1,0 +1,39 @@
+
+
+
+.cvtitle{border-bottom: solid; border-color:orange;}
+
+.fa-graduation-cap {color: orange;}
+
+.fa-briefcase {color: orange;}
+
+.fa-pen {color: orange;}
+
+.fa-circle {color:orange;}
+
+h1 {color: orange;}
+
+.p {text-align:justify;}
+
+
+
+.cvbody{margin-left: 350px; margin-top: 40px; text-align: justify;}
+
+
+.blockquote {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cvlist {
+  float: left;
+}
+.cvlist {
+  margin-top: 5px;
+}
+
+.cvrec1{ float: left; margin-top: 10px; }
+
+.cvrec2{ float: right; margin-top: 10px; }
+
