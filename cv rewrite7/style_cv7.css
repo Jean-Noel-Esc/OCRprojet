@@ -1,49 +1,42 @@
-.light{color:black;}
-.orangeSou{border-bottom: solid; border-color:orange;}
+.light { color:black; font-style: normal;}
 
-.cvtitle{border-bottom: solid; border-color:orange;}
+.orangeSou { border-bottom: solid; border-color: orange;}
 
-.fa-dot-circle {color: orange;}
+.cvtitle { border-bottom: solid; border-color: orange;}
 
-.fa-graduation-cap {color: orange;}
+.fa-dot-circle {color: orange; font-size:12px;}
 
-.fa-briefcase {color: orange;}
+.fa-graduation-cap,.fa-briefcase,.fa-pen,.fa-circle {color: orange;}
 
-.fa-pen {color: orange;}
+.fa-circle {color:#454545}
 
-.fa-circle {color:orange;}
+.icon-background{color:#FEF329;}
+
+
+
 
 ul {
-  list-style-type: none;
-  width: 500px;
+  list-style-type:none;
 }
 ul li:before {
   content: "\2022";
-  float: left;
   color: orange;
+  vertical-align: center;
+  margin-right: 7px;
+  font-size:20px;
+    }
+li {
+  text-align:left;
 }
-ul li {
-  text-align: left;
-}
 
 
-
-h1 { font-size: 50px; color: orange;}
+h1 {font-size: 50px; color: orange;}
 h2 {font-size: 25px;}
 h4 {font-size: 16px}
 
 .p {text-align:justify-content;}
 
-
-
-.cvbody{margin-left: 350px; margin-top: 40px; text-align: justify;}
-
-
-.blockquote {
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-}
+.article {margin-left: 350px; margin-top: 40px; text-align: justify;}
 
 .cvlist {
   float: left;
@@ -52,6 +45,6 @@ h4 {font-size: 16px}
   margin-top: 5px;
 }
 
-.cvrec1{ float: left; margin-top: 10px; }
 
-.cvrec2{ float: right; margin-top: 10px; }
+
+.tour {border:solid 0.25rem #99999988 ;}
