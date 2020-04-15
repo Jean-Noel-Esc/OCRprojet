@@ -2,12 +2,42 @@
 
 src : url("Gotu-regular.ttf")
 }
+@font-face{ font-family:"Devonshire"; 
+
+src : url("Devonshire-regular.ttf")
+}
+@font-face{ font-family:"Comic"; 
+
+src : url("ComicNeue-regular.ttf")
+}
+@font-face{ font-family:"Parisienne"; 
+
+src : url("Parisienne-regular.ttf")
+}
+@font-face{ font-family:"Kaushan"; 
+
+src : url("KaushanScript-regular.ttf")
+}
+
+@font-face{ font-family:"Croissant"; 
+
+src : url("CroissantOne-regular.ttf")
+}
+
+
+body{
+    margin: 0;
+    height: 100%;
+}
+
+
 header, footer {
     font-family: Helvetica;
     background-color: #579c87;
     color: orange;
     text-align: center;
     width: 100%;
+    height: 10%;
     margin: 0;
     padding: 2% 0 2% 0;
     border-bottom: 0.5px solid #a1c181;
@@ -29,11 +59,50 @@ header, footer {
 
 }
 
+button {
+
+    border-radius: 5px 5px 5px 5px;
+    border: 0.5px solid #508e7c;
+    padding: 0.5% 3% 0.5% 3%;
+    color: #fdcb46;
+    background-color: #579c87;
+    margin-bottom: 30%;
+    margin-top: 20%;
+}
+
+.prochainement { 
+    text-align: center;
+    display:inline-block;
+    justify-content: center;
+}
+
+span#span1 {
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: apparition;
+}
+
+@keyframes apparition {
+0% {
+    opacity: 0;
+}
+
+100% {
+    opacity: 1;
+}
+ 
+}
+
+
 .contenu {
     position: absolute;
     width: 300px;
     height: 400px;
-
     transition: all 0.5s;    
 }
 
@@ -60,8 +129,8 @@ a .contenu h3  {
 
 
 #menus section{
-    width: 250px;
-    height: 350px;
+    width: 300px;
+    height: 400px;
     position: relative;
     text-align: center;
     margin-bottom: 8%;
@@ -70,10 +139,45 @@ a .contenu h3  {
     box-shadow: 0px 0px 8px 6px #e8e8e8;
 }
 
+#menu1 {
+    font-family: "devonshire";
+    background-color: #fcdbd6;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 8%;
+    box-shadow: 0px 0px 8px 6px #e8e8e8;
+}
+
+#menu2 {
+    font-family: "Croissant";
+    color: #c77529;
+    letter-spacing: -0.5px;
+    background: linear-gradient(to right, #c77529 0%, #8f5bfe 100%)
+    background-color: #fff5fe;
+
+}
+
+#menu3 {
+    background-color: #fdfefd;
+    color: black;
+
+ }
+
+
 /*(#menu2 /*conflit avec h2 dans menu**/
+
+
+.nom_restaurant-titre-la-note-enchantee {
+    font-family: "devonshire";
+    margin-top: 5px;
+    font-size: 250%;
+    margin-block-end: 0;
+}
 .nom_restaurant-titre-le-chic-a-la-francaise{  
     top: 38%;
-    font-family: "Gotu";
+    font-family: "Croissant";
     font-size: 250%;
     color: #c77529;
     letter-spacing: -0.5px;
@@ -81,13 +185,21 @@ a .contenu h3  {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
-
 .nom_restaurant-titre-le-delice-des-papilles {
-    font-family: "...";
+    font-family: "Parisienne";
     font-size: 250%;
     color: #0431df;
     background: -o-linear-gradient(left, #0431df 0%, #0887fb 100%);
     background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nom_restaurant-titre-la-palette-du-gout {
+    font-family: "Kaushan";
+    font-size: 250%;
+    color: #3d9339;
+    background: -o-linear-gradient(left, #3d9339 0%, #c0fd87 100%);
+    background: linear-gradient(to right, #3d9339 0%, #c0fd87 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -136,6 +248,15 @@ footer p a  {
 
 /*css du menu1*/
 
+.menu__titre {
+    text-align: center;
+    display: inline-flex;
+    margin-right: 50%;
+    margin-left: 50%;
+
+}
+
+
 .menu1 {
     color: black;
     background-color: #fcdfdb;
@@ -183,8 +304,12 @@ p {
     align-items: baseline;
  }
 
-h2 {
-    text-align: center;}
+#menus h2 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+}
 
 .soustitre { 
     text-align: center;
@@ -192,24 +317,7 @@ h2 {
     width: 100%;
  }
 
- .menu2 {
-    font-family: : "Gotu";
-    color: black;
-    background-color: #fff5fe;
-    margin-top: 200px;
-    margin-bottom: 200px; 
-    margin-right: 100px; 
-    margin-left: 100px;
-}
 
-.menu3 {
-    background-color: #fdfefd;
-    color: black;
-    margin-top: 200px;
-    margin-bottom: 200px; 
-    margin-right: 100px; 
-    margin-left: 100px;
- }
 
 /*.assiettes-le-chic-a-la-francaise {
     color: #ce782d;
@@ -235,9 +343,49 @@ h2 {
 
 h3 { margin-top: 0;
 margin-bottom: 0;
-width:50%; } 
+width:100%; } 
 
+#menu1 .menu h3{
+    color: red;
+}
+#menu1 .menu h3:hover{
+    background-image: linear-gradient(to right , red 0%, red 100%);
+}
+#menu2 .menu h3{ 
+    color: orange; }
+#menu2 .menu h3:hover{
+    background-image: linear-gradient(to right , orange 0%, orange 100%);
+}
 
+.soustitre h3  {
+    /*background : linear-gradient(to right, black 0%, black 100%) no-repeat left bottom / 0 10%;
+    background-image: linear-gradient(to right, black 0%, black 100%);*/
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 0px 10%;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    transition : all 0.5s;
+}
+
+.soustitre h3:hover  {
+/*    background : linear-gradient(to right, black 0%, black 100%) no-repeat left bottom / 0 10%;
+    background-image: linear-gradient(to right, black 0%, black 100%);*/
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 100% 10%;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    transition : all 0.5s;
+}
 .trait1 { width:25%;
 background-color: black;
 height: 4px;
@@ -268,15 +416,7 @@ border: none; }
     margin-left: 100px; 
 }
 
-.nom_restaurant-titre-la-palette-du-gout {
-    font-family: "kaushan";
-    font-size: 250%;
-    color: #3d9339;
-    background: -o-linear-gradient(left, #3d9339 0%, #c0fd87 100%);
-    background: linear-gradient(to right, #3d9339 0%, #c0fd87 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 @media (min-width: 768px) {.h3-le-delice-des-papilles { 
 width:30%; } 
