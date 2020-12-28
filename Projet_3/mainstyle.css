@@ -1,0 +1,621 @@
+@font-face {
+  font-family: "Gotu";
+  src: url("Gotu-regular.ttf");
+}
+@font-face {
+  font-family: "Devonshire";
+  src: url("Devonshire-regular.ttf");
+}
+@font-face {
+  font-family: "Comic";
+  src: url("ComicNeue-regular.ttf");
+}
+@font-face {
+  font-family: "Parisienne";
+  src: url("Parisienne-regular.ttf");
+}
+@font-face {
+  font-family: "Kaushan";
+  src: url("KaushanScript-regular.ttf");
+}
+@font-face {
+  font-family: "Croissant";
+  src: url("CroissantOne-regular.ttf");
+}
+.bloc-1 {
+  display: inline-flex;
+}
+
+.bloc-2 {
+  display: inline-flex;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.img-en-tete {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.img-pied-de-page {
+  width: 20px;
+  height: 20px;
+  margin-top: 0px;
+  display: block;
+}
+
+#pieddepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Devonshire;
+}
+
+.section .menu .menu-la-note-enchantee {
+  margin-bottom: auto;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+header, footer {
+  font-family: Helvetica;
+  background-color: #579c87;
+  color: orange;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 2% 0 2% 0;
+}
+
+a {
+  font-family: Helvetica;
+  color: orange;
+  text-decoration-line: none;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+header, footer {
+  display: block;
+}
+
+button {
+  border-radius: 5px 5px 5px 5px;
+  border: 0.5px solid #508e7c;
+  padding: 0.5% 3% 0.5% 3%;
+  color: #fdcb46;
+  background-color: #579c87;
+  margin-bottom: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu3 .contenu {
+  font-family: "Parisienne";
+  font-size: 24px;
+  color: #0431df;
+  background: -o-linear-gradient(left, #0431df 0%, #0887fb 100%);
+  background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #fdfefd;
+}
+
+#menu4 .contenu {
+  font-family: "Kaushan";
+  font-size: 24px;
+  color: #3d9339;
+  background: -o-linear-gradient(left, #3d9339 0%, #c0fd87 100%);
+  background: linear-gradient(to right, #3d9339 0%, #c0fd87 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #fdfffd;
+}
+
+.prochainement {
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+}
+
+#prochainement {
+  width: 100%;
+  margin: auto;
+}
+
+span#span1 {
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: apparition;
+}
+
+span#span2 {
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0.3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: apparition;
+}
+
+span#span3 {
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0.6s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: apparition;
+}
+
+@keyframes apparition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.contenu {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  transition: all 0.5s;
+}
+
+a .contenu h2 {
+  font-size: 24px;
+  transition: all 0.5s;
+}
+
+a .contenu h3 {
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+a:hover .contenu {
+  opacity: 0.55;
+  transition: all 0.5s;
+}
+
+a:hover .contenu h2 {
+  font-size: 36px;
+  transition: all 0.5s;
+}
+
+a:hover .contenu h3 {
+  font-size: 24px;
+  transition: all 0.5s;
+}
+
+.contenu h2, h3 {
+  margin-top: 50%;
+  justify-content: center;
+}
+
+section.menu {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 3%;
+  box-shadow: 0px 0px 8px 6px #e8e8e8;
+}
+
+#menu1 section.menu, #menus #menu1 {
+  background-color: #fcdbd6;
+}
+
+#menu2 section.menu, #menus #menu2 {
+  background-color: #fce9fa;
+}
+
+#menu3 section.menu, #menus #menu3 {
+  background-color: #c7c7c7;
+}
+
+#menu4 section.menu, #menus #menu4 {
+  background-color: #f6f5f5;
+}
+
+#menus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 2%;
+  margin: auto;
+}
+
+#menus section {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 8%;
+  -webkit-box-shadow: 0px 0px 8px 6px #e8e8e8;
+  -moz-box-shadow: 0px 0px 8px 6px #e8e8e8;
+  box-shadow: 0px 0px 8px 6px #e8e8e8;
+}
+
+#menu1 h2 {
+  font-family: "devonshire";
+  text-align: center;
+  color: black;
+  margin-top: 0px;
+}
+
+#menu2 h2 {
+  font-family: "Croissant";
+  color: transparent;
+  letter-spacing: -0.5px;
+  background-image: linear-gradient(to right, #c77529 0%, #8f5bfe 100%);
+  background-color: #fff5fe;
+  -webkit-background-clip: text;
+}
+
+#menu3 {
+  background-color: #fdfefd;
+  color: black;
+}
+
+/*(#menu2 /*conflit avec h2 dans menu**/
+.nom_restaurant-titre-la-note-enchantee {
+  font-family: "devonshire";
+  margin-top: 5px;
+  font-size: 250%;
+  margin-block-end: 0;
+}
+
+.nom_restaurant-titre-le-chic-a-la-francaise {
+  top: 38%;
+  font-family: "Croissant";
+  font-size: 150%;
+  color: #c77529;
+  letter-spacing: -0.5px;
+  background: linear-gradient(to right, #c77529 0%, #8f5bfe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.nom_restaurant-titre-le-delice-des-papilles {
+  font-family: "Parisienne";
+  font-size: 250%;
+  color: #0431df;
+  background: -o-linear-gradient(left, #0431df 0%, #0887fb 100%);
+  background: linear-gradient(to right, #0431df 0%, #0887fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.nom_restaurant-titre-la-palette-du-gout {
+  font-family: "Kaushan";
+  font-size: 250%;
+  color: #3d9339;
+  background: -o-linear-gradient(left, #3d9339 0%, #c0fd87 100%);
+  background: linear-gradient(to right, #3d9339 0%, #c0fd87 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.5px solid #a1c181;
+}
+
+footer p a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #fdcb46;
+  display: inline-block;
+}
+
+footer p a:hover {
+  animation-name: wiggle;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(4deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/*css du menu1*/
+.menu__titre {
+  font-size: 25px;
+  font-family: helvetica;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.menu1 {
+  color: black;
+  background-color: #fcdfdb;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.assiette-la-note-enchantee {
+  font-family: Comic;
+}
+
+.assiette-le-chic-a-la-francaise, .assiette-le-delice-des-papilles, .assiette-la-palette-du-gout {
+  font-family: Comic;
+}
+
+section {
+  justify-content: center;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 30%;
+}
+
+.plats {
+  font-size: 105%;
+  flex-direction: row;
+  line-height: 1;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+p {
+  display: inline-block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.prix {
+  margin-left: auto;
+  text-align: right;
+  align-items: baseline;
+}
+
+#menus h2 {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.soustitre {
+  text-align: center;
+  display: flex;
+  width: 100%;
+}
+
+/*css menu 3 et 4*/
+.menu .assiette {
+  display: flex;
+  font-size: 105%;
+  flex-direction: row;
+  line-height: 1;
+  width: 100%;
+  align-items: baseline;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+#menu1 .menu h3 {
+  color: red;
+}
+
+#menu1 .menu h3:hover {
+  background-image: linear-gradient(to right, red 0%, red 100%);
+}
+
+#menu2 .menu h3-le-chic-a-la-francaise-1 {
+  color: #dc5400;
+}
+
+#menu2 .menu h3:hover {
+  background-image: linear-gradient(to right, #dc5400 0%, #dc5400 100%);
+}
+
+#menu2 .menu h3-le-chic-a-la-francaise-2 {
+  color: #af80c0;
+}
+
+#menu2 .menu h3-le-chic-a-la-francaise-2:hover {
+  background-image: linear-gradient(to right, #af80c0 0%, #af80c0 100%);
+}
+
+#menu3 .menu h3 {
+  color: black;
+}
+
+#menu3 .menu h3:hover {
+  background-image: linear-gradient(to right, black 0%, black 100%);
+}
+
+#menu4 .menu h3 {
+  color: green;
+}
+
+#menu4 .menu h3:hover {
+  background-image: linear-gradient(to right, green 0%, green 100%);
+}
+
+.soustitre h3 {
+  /*background : linear-gradient(to right, black 0%, black 100%) no-repeat left bottom / 0 10%;
+  background-image: linear-gradient(to right, black 0%, black 100%);*/
+  background-position-x: left;
+  background-position-y: bottom;
+  background-size: 0px 4px;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  transition: all 0.5s;
+}
+
+.soustitre h3:hover {
+  /*    background : linear-gradient(to right, black 0%, black 100%) no-repeat left bottom / 0 10%;
+      background-image: linear-gradient(to right, black 0%, black 100%);*/
+  background-position-x: left;
+  background-position-y: bottom;
+  background-size: 100% 4px;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  transition: all 0.5s;
+}
+
+.trait1 {
+  width: 25%;
+  background-color: black;
+  height: 4px;
+  border: none;
+}
+
+.trait2-1 {
+  width: 25%;
+  background-color: #dc5400;
+  height: 4px;
+  border: none;
+}
+
+.trait2-2 {
+  width: 25%;
+  background-color: #af80c0;
+  height: 4px;
+  border: none;
+}
+
+.trait2-3 {
+  width: 25%;
+  background-color: #4c2e7e;
+  height: 4px;
+  border: none;
+}
+
+.trait3-1 {
+  width: 25%;
+  background-color: #001572;
+  height: 4px;
+  border: none;
+}
+
+.trait3-2 {
+  width: 25%;
+  background-color: #3349ab;
+  height: 4px;
+  border: none;
+}
+
+.trait3-3 {
+  width: 25%;
+  background-color: #7f92e7;
+  height: 4px;
+  border: none;
+}
+
+.trait4 {
+  width: 25%;
+  background-color: green;
+  height: 4px;
+  border: none;
+}
+
+.trait4-1 {
+  background: linear-gradient(to right, #3d9339 0%, #c0fd87 100%);
+}
+
+.trait4-2 {
+  background: linear-gradient(to left, #3d9339 0%, #c0fd87 100%);
+}
+
+.menu4 {
+  background-color: #fdfffd;
+  color: black;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#entrees-le-chic {
+  color: #dc5400 !important;
+}
+
+#plats-le-chic {
+  color: #af80c0 !important;
+}
+
+#desserts-le-chic {
+  color: #4c2e7e;
+}
+
+@media (min-width: 768px) {
+  .h3-le-delice-des-papilles {
+    width: 30%;
+  }
+
+  .trait3 {
+    width: 35%;
+  }
+}
+
+/*# sourceMappingURL=mainstyle.css.map */
